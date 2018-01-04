@@ -16,7 +16,8 @@ object MyScala {
     val randomLetters = "ABCDEFGHIJKLMNOPRSTVWXYZ";
     
     for(i <- 0 until randomLetters.length()){
-      println(randomLetters(i))
+      println(randomLetters(k))
+
     }
   }
 }
