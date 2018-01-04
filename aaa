@@ -17,6 +17,7 @@ object MyScala {
     
     for(i <- 0 until randomLetters.length()){
       println(randomLetters(k))
+
     }
   }
 }
