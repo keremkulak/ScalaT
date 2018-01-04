@@ -1,0 +1,22 @@
+
+object MyScala {
+  def main(args: Array[String]){
+    
+    var i = 20;
+    
+    while(i>0){
+      println(i);
+      i-=1;
+    }
+    
+    for(i <- 1 to 20){
+       println(i);
+    }
+    
+    val randomLetters = "ABCDEFGHIJKLMNOPRSTVWXYZ";
+    
+    for(i <- 0 until randomLetters.length()){
+      println(randomLetters(i))
+    }
+  }
+}
